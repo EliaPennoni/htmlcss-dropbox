@@ -6,12 +6,9 @@
 }
 
 /* first section */
-/* top */
+/* header-top */
 
-.container{
-    
-    
-}
+
 .header-top{
     display: flex;
     align-items: center;
@@ -97,12 +94,11 @@ h1{
 .title-left > i {
     margin-top: 20px;
 }
-
-/* second section */
+/* main */
+/* horizontal section */
 
 .section{
     width: 50vw;
-    height: 600px;
     margin: 0 auto;
     margin-top: 120px;
 }
@@ -115,7 +111,7 @@ h1{
 
 .central-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -129,7 +125,6 @@ h1{
 
 .bottom-section{
     width: 50vw;
-    height:100px ;
     margin-bottom: 50px;
 }
 
@@ -140,18 +135,28 @@ h2{
 
 .holder{
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+   
 }
-
+/* colums */
 .offert{
     text-align: left;
     border: none;
+    padding: 5px;
+    padding-top: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+    
    
     
 }
 
-.offert > :is(div, button, h3) {
-    margin-bottom: 20px;
+.holder-small{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.offert > :is(div, h3) {
+    margin: 20px 0px;
 }
 
 .offert > button {
@@ -170,6 +175,121 @@ h2{
     display: inline-block;
     height: auto;
 }
+/*  button colums */
+.lft{
+    margin-top:18px ;
+    padding: 5px
+}
+
+.ct{
+    margin: ;
+}
+.dx{
+    margin-top:20px ;
+    width: 148px;
+}
+
+/* bottom column */
+
+
+.bottom-section {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.head-col{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    max-height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.bottom-col {
+    display: flex;
+   
+}
+.col-left{
+    width: 70%;
+    margin-top: px;
+}
+
+.bottom-col > h4{
+    margin-bottom: 40px;
+}
+
+/* dropbox partner */
+
+.middle-box{
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.img-left {
+    width: 60%;
+    
+}
+.img-text-right{
+    width: 30%;
+    margin-left: 40px;
+}
+.img-left > img {
+    max-width: 100%;
+}
+/* dropbox-business */
+.dropbox-business{
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    background-color: antiquewhite;
+    
+    
+    
+    
+}
+.business-body{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.business-card {
+    width: calc(100% / 3 - 10px);
+    height: 450px;
+    border: 1px solid black;
+}
+
+.card-top{
+    height: calc(50%);
+}
+.card-bottomSS{
+    height: calc(50%);
+}
+
+.card-top > img{
+   max-width: 100%;
+}
+
+
+
+ 
+
+
+
 
 
     
