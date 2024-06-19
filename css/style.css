@@ -195,7 +195,6 @@ h2{
 .bottom-section {
     width: 50vw;
     margin: 0 auto;
-    margin-top: 300px;
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .head-col{
@@ -251,14 +250,10 @@ h2{
 .dropbox-business{
     width: 50vw;
     margin: 0 auto;
-    display: flex;
+    
     margin-top: 100px;
-    background-color: antiquewhite;
-    
-    
-    
-    
 }
+  
 .business-body{
     width: 50vw;
     display: flex;
@@ -269,20 +264,50 @@ h2{
 
 .business-card {
     width: calc(100% / 3 - 10px);
-    height: 450px;
-    border: 1px solid black;
-}
-
-.card-top{
-    height: calc(50%);
-}
-.card-bottomSS{
-    height: calc(50%);
+    margin-top: 30px;
+   
 }
 
 .card-top > img{
    max-width: 100%;
 }
+.business-foot > h2 {
+    margin-top: 100px;
+}
+
+/* designit */
+
+.designit {
+    display: flex;
+    
+}
+
+.designit-section{
+    width: calc(100% / 3);
+    height: calc(100vh / 3);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B4D0E7;
+    min-height: 300px;
+    border: 1px solid black;
+}
+
+/* .designit-section > div {
+    width: calc(100% / 2);
+    height: calc(100vh / 2);
+} */
+
+/* .designit-section > div > img {
+    max-width: 100%;
+    
+} */
+
+    
+    
+    
+    
+
+
 
 
 
